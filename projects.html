@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kübra Demirtaş Veri Analizi Firması</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Anasayfa</a></li>
+                <li><a href="about.html">Hakkımda</a></li>
+                <li><a href="projects.html">Projelerim</a></li>
+                <li><a href="testimonials.html">Kullanıcı Dönüşleri</a></li>
+                <li><a href="contact.html">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="py-5">
+        <div class="container px-5 mb-5">
+            <div class="text-center mb-5">
+                <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Projelerim</span></h1>
+            </div>
+            <div class="row gx-5 justify-content-center">
+                <div class="col-lg-11 col-xl-9 col-xxl-8">
+                    <!-- Project Card 1-->
+                    <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                        <div class="card-body p-0">
+                            <div class="d-flex align-items-center">
+                                <div class="p-5">
+                                    <h2 class="fw-bolder">Proje 1: Müşteri Segmentasyonu ve Satış Tahmini</h2>
+                                    <p id="project1-text" class="project-text">Bu projede, büyük bir e-ticaret şirketi için müşteri segmentasyonu ve satış tahmini yapıldı. İlk adımda, müşterilerin alışveriş alışkanlıkları analiz edilerek demografik ve davranışsal özelliklere göre segmentlere ayrıldı. Ardından, her bir segmentin satış potansiyeli tahmin edildi. Bu tahminler sayesinde şirket, reklam bütçesini doğru hedef kitleye yönlendirerek ROI'yi (yatırım getirisi) %30 artırdı. Çalışmada Python, Pandas, Scikit-learn ve Tableau kullanıldı.</p>
+                                    <button id="read-more-btn1" class="btn btn-link" onclick="toggleText(1)">Devamını Oku</button>
+                                </div>
+                                <div class="text-center w-100">
+                                    <img class="img-fluid" src="eticaret-trendlerim (1).jpg" alt="..." />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project Card 2-->
+                    <div class="card overflow-hidden shadow rounded-4 border-0">
+                        <div class="card-body p-0">
+                            <div class="d-flex align-items-center">
+                                <div class="p-5">
+                                    <h2 class="fw-bolder">Proje 2: Sosyal Medya Etkileşimi Analizi</h2>
+                                    <p id="project2-text" class="project-text">>Bu projede, bir markanın sosyal medya etkileşimlerinin analizi gerçekleştirildi. Marka paylaşımlarının hangi saatlerde daha fazla etkileşim aldığını analiz etmek için veri görselleştirme araçları ve zaman serisi analiz yöntemleri kullanıldı. Elde edilen veriler, markanın sosyal medya stratejisini optimize etmesine ve etkileşim oranını %25 artırmasına yardımcı oldu. Projede Python, Matplotlib, Seaborn ve SQL kullanıldı.</p>
+                                    <button id="read-more-btn2" class="btn btn-link" onclick="toggleText(2)">Devamını Oku</button>
+                                </div>
+                                <div class="text-center w-100">
+                                    <img class="img-fluid" src="istockphoto-660687774-612x612 (1).jpg" alt="..." />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to action section-->
+    <section class="py-5 bg-gradient-primary-to-secondary text-white">
+        <div class="container px-5 my-5">
+            <div class="text-center">
+                <h2 class="display-4 fw-bolder mb-4">Birlikte Çalışalım!</h2>
+                <a class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" href="contact.html">Benimle iletişime geç!</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer-->
+    <footer class="bg-white py-4 mt-auto">
+        <div class="container px-5">
+            <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                <div class="col-auto"><div class="small m-0">Copyright &copy; Kübra Demirtaş 2025</div></div>
+                <div class="col-auto">
+                    <a class="small" href="#!">Privacy</a>
+                    <span class="mx-1">&middot;</span>
+                    <a class="small" href="#!">Terms</a>
+                    <span class="mx-1">&middot;</span>
+                    <a class="small" href="#!">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Core theme JS-->
+    <script src="main.js"></script>
+</body>
+</html>
