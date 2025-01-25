@@ -1,0 +1,178 @@
+/* Genel Stil Ayarları */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    background-color: #001f3f;
+    line-height: 1.8;
+}
+
+/* Header ve Navigasyon */
+header {
+    background-color: #002a5c;
+    padding: 25px 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    transition: color 0.3s, transform 0.3s;
+}
+
+nav ul li a:hover {
+    color: #00bfff;
+    transform: scale(1.05);
+}
+
+/* Ana İçerik */
+main {
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+main h1 {
+    font-size: 48px;
+    background: linear-gradient(90deg, #00bfff, #004080);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 40px;
+}
+
+main p {
+    font-size: 22px;
+    color: #d9d9d9;
+}
+
+section {
+    width: 100%;
+    max-width: 1000px;
+    background-color: #002244;
+    padding: 30px;
+    border-radius: 10px;
+    border-left: 6px solid #00bfff;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+section h2 {
+    color: #00bfff;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+section p {
+    color: #ffffff;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+/* Kartlar */
+.card {
+    background-color: #003366;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    border: 1px solid #004080;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card h3 {
+    color: #00bfff;
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+
+.card p {
+    color: #d9d9d9;
+    font-size: 18px;
+}
+
+/* Footer */
+footer {
+    background-color: #002a5c;
+    text-align: center;
+    padding: 30px 0;
+    color: #ffffff;
+    border-top: 4px solid #00bfff;
+}
+
+footer p {
+    margin: 0;
+    font-size: 16px;
+}
+
+footer a {
+    color: #00bfff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Tasarım */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    main {
+        padding: 40px;
+    }
+
+    main h1 {
+        font-size: 36px;
+    }
+
+    main p {
+        font-size: 18px;
+    }
+
+    section {
+        padding: 25px;
+    }
+
+    .card {
+        padding: 25px;
+    }
+}
