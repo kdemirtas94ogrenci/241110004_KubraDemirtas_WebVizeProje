@@ -1,0 +1,1 @@
+index.html, about.html, projects.html,contact.html dosyaları oluşturdum. style.css ile düzenledim ve Responsive design oluşturdum. Projeler kısmındaki proje metinlerinin "devamını oku" "gizle" şeklinde 2 eyleme sahip js kodunu oluşturdum ve main.js dosyasına ekledim. Son olarak iletişim sayfasındaki form kısmındaki veri kutucuklarını zorunlu yaparak js kodunu oluşturdum. 
